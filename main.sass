@@ -1,0 +1,248 @@
+.header
+
+    h3 
+        font: 20px Myriad Pro
+        text-transform: uppercase
+        font-weight: 800
+        color: rgba(0, 0, 0, 0.75)
+    
+    p 
+        font: 11px Myriad Pro
+        font-weight: 600
+        color: rgba(0, 0, 0, 0.6)
+
+    .container
+        max-width: 940px
+        margin: auto 
+        @media screen and ( max-width: 940px)
+            padding: 0px 5px
+
+        .content 
+            display: flex
+            justify-content: space-between
+            @media screen and ( max-width: 425px)
+                flex-direction: column
+                
+                
+            
+            .logo
+                margin: 10px 0px
+                background-image: url(/img/logo.png)
+                background-repeat: no-repeat
+                padding: 5px 0px 10px 50px
+                @media screen and ( max-width: 425px)
+                    margin: auto
+
+            .rightsection
+                display: flex
+                margin: 10px 0px
+                padding: 5px 0px 10px 0px
+                @media screen and ( max-width: 425px)
+                    flex-direction: column
+
+                .number
+                    margin: 0px 20px
+                    text-align: right
+                    @media screen and ( max-width: 425px)
+                        margin: auto
+                .button
+                    margin: 0px 0px
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    width: 160px
+                    height: 36px
+                    border: 2px solid #000000a1
+                    @media screen and ( max-width: 425px)
+                        margin: auto
+                        margin-top: 25px
+                    
+    .header__button
+        font: 11px Myriad Pro
+        font-weight: 600
+        color: rgba(0, 0, 0, 0.9)
+        cursor: auto
+
+.menu 
+    position: relative
+    margin: 0px 0px -32px 0px
+    @media screen and ( max-width: 425px)
+        margin: 0px 0px 0px 0px
+    p 
+        font: 16px Myriad Pro
+        font-weight: 600
+        color: rgba(0, 0, 0, 0.9)
+
+    .container
+        
+        max-width: 940px
+        margin: auto 
+        background-color: #ffcc00
+        //@media screen and ( max-width: 940px)
+            
+
+    .menu__list
+        display: flex
+        justify-content: center
+        @media screen and ( max-width: 425px)
+            flex-direction: column
+
+    .menu__element
+        width: 17%
+        padding: 23px 0px
+        text-align: center
+        &:hover
+            background-color: #ffffff
+
+        @media screen and ( max-width: 425px)
+            align-self: center
+            width: 100%
+
+.firstsection
+    height: 550px
+    background-image: url("/img/firstsection.png")
+    @media screen and ( max-width: 425px)
+        height: 400px
+
+   
+    h3
+        text-transform: uppercase
+        font: 28px Myriad Pro, sans-serif
+        font-weight: 600
+        color: rgba(255, 255, 255, 1)
+        margin-bottom: 48px
+
+    p
+        font: 15px Myriad Pro, sans-serif
+        font-weight: 300
+        color: rgba(255, 255, 255, 0.7)
+        width: 240px
+        margin-bottom: 50px
+
+    .button
+        height: 50px
+        width: 200px
+        background-color: #ffcc00
+        display: flex
+        justify-content: center
+        align-items: center
+        &:hover
+            background-color: #ffffff
+
+        a
+            font: 12px Myriad Pro, sans-serif
+            font-weight: 800
+            color: rgba(0, 0, 0, 0.9)
+            cursor: auto
+            
+    .firstsection__links
+        display: flex
+
+    .container
+        height: 550px
+        max-width: 940px
+        margin: auto
+        @media screen and ( max-width: 425px)
+            height: 400px
+            margin: 0px 5px 0px 5px
+            padding-top: 10px
+        @media screen and ( max-width: 940px)
+            padding: 0px 5px
+        // display: flex
+        // align-items: center 
+
+    .firstsection__block
+        position: relative
+        top: 40%
+        @media screen and ( max-width: 425px)
+            top: 20%
+
+    .firstsection__text
+        p
+            margin: 0px 0px 0px 20px
+        a
+            margin-left: 10px
+            color: rgba(255, 255, 255, 1)
+            text-decoration: underline
+
+        height: 50px
+        width: 200px
+        display: flex
+        justify-content: center
+        align-items: center
+
+        
+.alwaysavailable
+
+    .container
+        max-width: 940px
+        margin: auto
+        @media screen and ( max-width: 940px)
+            padding: 0px 5px
+        
+    h3
+        margin: 80px 0px
+        text-align: center
+        text-transform: uppercase
+        font: 22px Myriad Pro, sans-serif
+        font-weight: 700
+        color: black
+
+    .alwaysavailable__content
+
+        display: flex
+        justify-content: space-between
+        margin-bottom: 80px
+        @media screen and ( max-width: 725px)
+            flex-direction: column
+            
+            
+
+    .alwaysavailable__card
+
+        flex-basis: 30%
+        text-align: center
+        @media screen and ( max-width: 725px)
+            width: 80%
+            align-self: center
+            padding-bottom: 40px
+
+            
+           
+        img
+            
+        h4
+            margin: 30px 0px 15px 0px     
+            font: 18px Myriad Pro, sans-serif
+            font-weight: 600
+            color: black
+        p
+            font: 15px Myriad Pro, sans-serif
+            font-weight: 300
+            color: rgba(108, 108, 108, 0.9)
+
+        .alwaysavailable__price
+            margin: 15px 0px 15px 0px     
+            font: 18px Myriad Pro, sans-serif
+            font-weight: 600
+            color: black 
+
+        .button
+            font: 14px Myriad Pro, sans-serif
+            font-weight: 800
+            margin: auto
+            height: 50px
+            width: 200px
+            background-color: #ffcc00
+            display: flex
+            justify-content: center
+            align-items: center
+            &:hover
+                background-color: #ffffff
+                border: 1px solid
+                border-color: #ffcc00
+
+
+
+
+        
