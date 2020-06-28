@@ -573,4 +573,28 @@
 .popular .popular__card .button:hover {
   background-color: #ffffff;
 }
+
+.map {
+  background-image: url("/img/map.png");
+}
+
+.map .container {
+  height: 520px;
+  max-width: 940px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.map .map__block {
+  background-color: white;
+  height: 80%;
+}
 /*# sourceMappingURL=main.css.map */
