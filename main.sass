@@ -395,6 +395,10 @@
         left: 0%
         top: 45%
         color: #ccccccad
+        img
+            max-width: 100px
+            width: auto
+            opacity: 50%
 
     .services__rightbutton
 
@@ -403,9 +407,13 @@
         right: 0%
         top: 45%
         color: #ccccccad
+        img
+            max-width: 100px
+            width: auto
+            opacity: 50%
 
     .services__card
-
+        display: none
         // flex-basis: 30%
         text-align: center
         // border: 2px solid #fff
@@ -419,7 +427,8 @@
             // background-color: #fff
 
         img
-            max-width: 800px
+            max-width: 700px
+            max-height: 450px
             width: 100%
 
         h4
@@ -431,6 +440,9 @@
             font: 15px Myriad Pro, sans-serif
             font-weight: 300
             color: rgba(108, 108, 108, 0.9)
+
+    .services__active
+        display: block
 
 .map
     background-image: url("/img/map.png")
