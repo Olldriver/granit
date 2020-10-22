@@ -204,6 +204,8 @@
             margin-bottom: 50px
 
         img
+            max-width: 100%
+            width: auto
 
         h4
             margin: 30px 0px 15px 0px
@@ -395,10 +397,14 @@
         left: 0%
         top: 45%
         color: #ccccccad
+        opacity: 0.6
         img
             max-width: 100px
             width: auto
             opacity: 50%
+        &:hover
+            cursor: pointer
+            opacity: 1
 
     .services__rightbutton
 
@@ -407,10 +413,33 @@
         right: 0%
         top: 45%
         color: #ccccccad
+        opacity: 0.6
         img
             max-width: 100px
             width: auto
             opacity: 50%
+        &:hover
+            cursor: pointer
+            opacity: 1
+
+    .services__dots
+        position: absolute
+        display: flex
+        bottom: 0
+
+    .services__dot
+        background-color: black
+        opacity: 0.3
+        border-radius: 15px
+        width: 15px
+        height: 15px
+        margin: 10px 5px
+        // z-index: 10
+        &:hover
+            cursor: pointer
+
+    .services__dot__active
+        opacity: 0.8
 
     .services__card
         display: none

@@ -343,6 +343,11 @@
   }
 }
 
+.alwaysavailable .alwaysavailable__card img {
+  max-width: 100%;
+  width: auto;
+}
+
 .alwaysavailable .alwaysavailable__card h4 {
   margin: 30px 0px 15px 0px;
   font: 18px Myriad Pro, sans-serif;
@@ -631,6 +636,7 @@
   left: 0%;
   top: 45%;
   color: #ccccccad;
+  opacity: 0.6;
 }
 
 .services .services__leftbutton img {
@@ -639,18 +645,54 @@
   opacity: 50%;
 }
 
+.services .services__leftbutton:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
 .services .services__rightbutton {
   font: 80px Myriad Pro, sans-serif;
   position: absolute;
   right: 0%;
   top: 45%;
   color: #ccccccad;
+  opacity: 0.6;
 }
 
 .services .services__rightbutton img {
   max-width: 100px;
   width: auto;
   opacity: 50%;
+}
+
+.services .services__rightbutton:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.services .services__dots {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  bottom: 0;
+}
+
+.services .services__dot {
+  background-color: black;
+  opacity: 0.3;
+  border-radius: 15px;
+  width: 15px;
+  height: 15px;
+  margin: 10px 5px;
+}
+
+.services .services__dot:hover {
+  cursor: pointer;
+}
+
+.services .services__dot__active {
+  opacity: 0.8;
 }
 
 .services .services__card {
