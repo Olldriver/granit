@@ -366,8 +366,7 @@
 
     background-color: #f4f4f4
     margin-top: 80px
-    @media screen and ( min-width: 725px)
-        padding-bottom: 80px
+    padding-bottom: 80px
 
     .container
         max-width: 940px
@@ -388,8 +387,7 @@
         position: relative
         display: flex
         justify-content: center
-        @media screen and ( max-width: 725px)
-            flex-direction: column
+
     .services__leftbutton
 
         font: 80px Myriad Pro, sans-serif
@@ -447,11 +445,7 @@
         text-align: center
         // border: 2px solid #fff
         padding: 30px 0px
-        @media screen and ( max-width: 725px)
-            width: 80%
-            align-self: center
-            padding-bottom: 40px
-            margin-bottom: 50px
+
         &:hover
             // background-color: #fff
 
@@ -487,4 +481,109 @@
 
     .map__block
         background-color: white
-        height: 80%
+        height: 60%
+        padding: 50px
+        margin: 10px
+        border-radius: 5px
+        h3
+            text-transform: uppercase
+            font: 22px Myriad Pro, sans-serif
+            font-weight: 700
+            color: black
+        p
+            font: 16px Myriad Pro, sans-serif
+            font-weight: 500
+            color: black
+
+    .map__numbers
+        margin: 20px 0px
+        background-image: url("/img/map-phone.png")
+        background-repeat: no-repeat
+        padding-left: 20px
+        p
+            font-weight: 600
+    .map__adress
+        margin: 20px 0px
+        background-image: url("/img/map-location.png")
+        background-repeat: no-repeat
+        padding-left: 20px
+
+    .map__email
+        margin: 20px 0px
+        background-image: url("/img/map-envelope.png")
+        background-repeat: no-repeat
+        padding-left: 20px
+        p
+            position: relative
+            top: -4px
+            text-decoration: underline
+
+.footer
+    background-color: #292929
+    .container
+        max-width: 940px
+        margin: auto
+        @media screen and ( max-width: 940px)
+            padding: 0px 5px
+
+    h3
+        font: 20px Myriad Pro
+        text-transform: uppercase
+        font-weight: 800
+        color: #ffffffbe
+
+    p
+        font: 11px Myriad Pro
+        font-weight: 600
+        color: #ffffffbe
+
+    a
+        font: 11px Myriad Pro
+        font-weight: 600
+        color: #ffffffbe
+        cursor: auto
+
+    .footer__content
+        display: flex
+        justify-content: space-between
+        @media screen and ( max-width: 425px)
+            flex-direction: column
+
+    .footer__logo
+        margin: 10px 0px
+        background-image: url(/img/footer__logo.png)
+        background-repeat: no-repeat
+        padding: 5px 0px 10px 50px
+        @media screen and ( max-width: 425px)
+            margin: auto
+
+    .footer__leftsection
+        margin: 10px 0px
+        padding: 5px 0px 10px 50px
+        @media screen and ( max-width: 425px)
+            margin: auto
+
+    .footer__rightsection
+        display: flex
+        margin: 10px 0px
+        padding: 5px 0px 10px 0px
+        @media screen and ( max-width: 425px)
+            flex-direction: column
+
+    .footer__number
+        margin: 0px 20px
+        text-align: right
+        @media screen and ( max-width: 425px)
+            margin: auto
+
+    .footer__button
+        margin: 0px 0px
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 160px
+        height: 36px
+        border: 2px solid #ffffffa1
+        @media screen and ( max-width: 425px)
+            margin: auto
+            margin-top: 25px
